@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+}
+
+body {
+  background-color: #dedddc;
+}
+
+
+
+.headerDiv {
+  background-image: url("images/mirror.jpg");
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  color: transparent;
+}
+
+.headerTitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+
+.titleSubheader {
+  font-size: 3vw;
+  margin-bottom: 15px;
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+.synopsis, .synopsisPart2, .synopsisPart3 {
+  display: flex;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 3vw;
+  font-family: 'Volkhov', serif;
+  /* margin-bottom: 50vh; */
+
+  border-radius: 20px;
+  background-color: #e6e6cf;
+  padding: 10px;
+
+}
+
+.synopsis {
+  /* margin-bottom: 30px; */
+}
+
+
+.glide {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.glide__slides {
+  display: flex;
+  justify-content: center;
+}
+
+.glide img {
+  width: 50vw;
+  /* justify-content: center; */
+}
+
+
+.synopsisPart2 {
+
+}
+
+#background_video {
+  height: 30vh;
+}
+
+
+
+
+
+
+
+.cardholder {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: black;
+  height:150px;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+.synopsisPart3 {
+
+}
+
+.parallaxCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.parallaxCards img {
+  width: 10vw;
+}
